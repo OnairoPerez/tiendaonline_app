@@ -16,4 +16,10 @@
     <string name="home_text_points">Aprovecha nuestro sistema de puntos y canjea los mejores productos por tu fidelidad. Regístrate y empieza a acumular puntos con cada compra que hagas</string>
     <string name="home_subtitle_products">Productos</string>
     <string name="home_subtitle_points">Puntos fidelidad</string>
+    <string name="shoppingcart_subtitle">Productos en el carro de compras</string>
+    <string name="shoppingcart_button_buy">Realizar compra</string>
+    <string name="shoppingcart_table_text_1">Nombre</string>
+    <string name="shoppingcart_table_text_2">Cantidad</string>
+    <string name="shoppingcart_table_text_3">Precio</string>
+    <string name="shoppingcart_table_text_4">Total:</string>
 </resources>
