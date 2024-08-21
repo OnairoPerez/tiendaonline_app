@@ -11,6 +11,7 @@
     <string name="alt_coin">Icono moneda</string>
     <string name="company_name_1">Autoservicio</string>
     <string name="company_name_2">Popular</string>
+    <string name="company_slogan">Autoservio Popular Calidad y economía a su alcance</string>
     <string name="home_text_intro">Descubre los mejores productos para tu hogar al mejor precio, con la calidad, variedad y servicio que solo nosotros te podemos ofrecer</string>
     <string name="home_text_products">No te puedes perder nuestra selección de los productos más comprados por nuestros clientes, que incluye desde alimentos y bebidas hasta artículos de limpieza e higiene. Todos ellos de la mejor calidad y con la garantía de nuestra tienda</string>
     <string name="home_text_points">Aprovecha nuestro sistema de puntos y canjea los mejores productos por tu fidelidad. Regístrate y empieza a acumular puntos con cada compra que hagas</string>
@@ -22,4 +23,10 @@
     <string name="shoppingcart_table_text_2">Cantidad</string>
     <string name="shoppingcart_table_text_3">Precio</string>
     <string name="shoppingcart_table_text_4">Total:</string>
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="login_placeholder_email">Correo Electrónico</string>
+    <string name="login_placeholder_pass">Contraseña</string>
+    <string name="login_button">Ingresar</string>
+    <string name="login_link_1">Olvidé mi contraseña</string>
+    <string name="login_link_2">Registrarse</string>
 </resources>
