@@ -29,4 +29,17 @@
     <string name="login_button">Ingresar</string>
     <string name="login_link_1">Olvidé mi contraseña</string>
     <string name="login_link_2">Registrarse</string>
+    <string name="reg_title">Registrarse</string>
+    <string name="reg_subtitle_1">Información Personal</string>
+    <string name="reg_subtitle_2">Datos de contacto</string>
+    <string name="reg_subtitle_3">Credenciales</string>
+    <string name="reg_placeholder_1">Nombre</string>
+    <string name="reg_placeholder_2">Apellido</string>
+    <string name="reg_placeholder_3">Número de identificación</string>
+    <string name="reg_placeholder_4">Teléfono</string>
+    <string name="reg_placeholder_5">Dirección</string>
+    <string name="reg_placeholder_6">Ciudad</string>
+    <string name="reg_placeholder_7">Correo electrónico</string>
+    <string name="reg_placeholder_8">Contraseña</string>
+    <string name="reg_button">Siguiente</string>
 </resources>
