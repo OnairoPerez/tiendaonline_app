@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">TiendaOnline</string>
+    <string name="placeholder_search">Buscar Producto</string>
+    <string name="alt_lupa">Icono lupa para la barra de busqueda</string>
+    <string name="alt_carrito">Icono Carrito de compras</string>
+    <string name="alt_contacto">Icono de contactanos</string>
+    <string name="alt_user">Icono de usuario</string>
+    <string name="alt_setting">Icono de las configuraciones</string>
+    <string name="alt_logo">Logo de la empresa Autoservicio Popular</string>
+    <string name="company_name_1">Autoservicio</string>
+    <string name="company_name_2">Popular</string>
+    <string name=""></string>
 </resources>
