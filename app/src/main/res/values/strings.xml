@@ -7,7 +7,13 @@
     <string name="alt_user">Icono de usuario</string>
     <string name="alt_setting">Icono de las configuraciones</string>
     <string name="alt_logo">Logo de la empresa Autoservicio Popular</string>
+    <string name="alt_banner">Imágenes de la tienda</string>
+    <string name="alt_coin">Icono moneda</string>
     <string name="company_name_1">Autoservicio</string>
     <string name="company_name_2">Popular</string>
-    <string name=""></string>
+    <string name="home_text_intro">Descubre los mejores productos para tu hogar al mejor precio, con la calidad, variedad y servicio que solo nosotros te podemos ofrecer</string>
+    <string name="home_text_products">No te puedes perder nuestra selección de los productos más comprados por nuestros clientes, que incluye desde alimentos y bebidas hasta artículos de limpieza e higiene. Todos ellos de la mejor calidad y con la garantía de nuestra tienda</string>
+    <string name="home_text_points">Aprovecha nuestro sistema de puntos y canjea los mejores productos por tu fidelidad. Regístrate y empieza a acumular puntos con cada compra que hagas</string>
+    <string name="home_subtitle_products">Productos</string>
+    <string name="home_subtitle_points">Puntos fidelidad</string>
 </resources>
