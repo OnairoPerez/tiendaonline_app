@@ -21,6 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BuscadorActivity"/>
+        <activity android:name=".CarritoActivity"/>
+        <activity android:name=".ProductoActivity"/>
+        <activity android:name=".RegistrarActivity"/>
+        <activity android:name=".LoginActivity"/>
     </application>
 
 </manifest>
