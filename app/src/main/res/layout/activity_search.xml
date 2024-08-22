@@ -6,152 +6,25 @@
     android:background="@color/Eerie_Black"
     tools:context=".BuscadorActivity">
 
-    <LinearLayout
-        android:id="@+id/option_search"
-        android:layout_width="0dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="1dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEnd0f="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/top_app_bar">
-
-        <EditText
-            android:id="@+id/buscador"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
-            android:layout_marginStart="10sp"
-            android:layout_marginTop="5sp"
-            android:layout_weight="1"
-            android:background="@color/white"
-            android:ems="10"
-            android:hint="@string/placeholder_search"
-            android:inputType="text"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/light_grey" />
-
-        <ImageView
-            android:id="@+id/button_lupa"
-            android:layout_width="44sp"
-            android:layout_height="48dp"
-            android:layout_marginTop="5sp"
-            android:layout_weight="1"
-            android:background="@color/white"
-            android:contentDescription="@string/alt_lupa"
-            android:padding="5sp"
-            app:srcCompat="@drawable/icono_lupa" />
-
-        <ImageView
-            android:id="@+id/icono_carrito"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/alt_carrito"
-            app:srcCompat="@drawable/icono_carriro_de_compras" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/botton_app_bar"
+    <include
+        android:id="@+id/include3"
+        layout="@layout/top_bar"
         android:layout_width="wrap_content"
-        android:layout_height="82dp"
-        android:background="#DC1212"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottom0f="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEnd0f="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="10sp"
-            android:layout_weight="1"
-            android:contentDescription="@string/alt_contacto"
-            app:srcCompat="@drawable/icono_contactanos" />
-
-        <ImageView
-            android:id="@+id/icono_user"
-            android:layout_width="200sp"
-            android:layout_height="wrap_content"
-            android:layout_margin="10sp"
-            android:layout_weight="1"
-            android:contentDescription="@string/alt_user"
-            app:srcCompat="@drawable/icono_usuario" />
-
-        <ImageView
-            android:id="@+id/icono_setting"
-            android:layout_width="200sp"
-            android:layout_height="wrap_content"
-            android:layout_margin="10sp"
-            android:layout_weight="1"
-            android:contentDescription="@string/alt_setting"
-            app:srcCompat="@drawable/icono_ajustes" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/top_app_bar"
-        android:layout_width="0dp"
-        android:layout_height="88dp"
-        android:background="#DC1212"
-        android:orientation="horizontal"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTop0f="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="5sp"
-            android:layout_weight="1"
-            android:contentDescription="@string/alt_logo"
-            app:srcCompat="@drawable/icono_logo"
-            tools:srcCompat="@drawable/icono_logo" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/text_titulo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-smallcaps"
-                android:text="@string/company_name_1"
-                android:textColor="@color/white"
-                android:textSize="32sp" />
-
-            <TextView
-                android:id="@+id/text_titulo2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-smallcaps"
-                android:text="@string/company_name_2"
-                android:textColor="@color/white"
-                android:textSize="32sp" />
-        </LinearLayout>
-    </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="82dp"
+        app:layout_constraintBottom_toBottomOf="@id/include_menu_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/option_search"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/include3">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -318,4 +191,13 @@
             </androidx.cardview.widget.CardView>
         </LinearLayout>
     </ScrollView>
+
+    <include
+        android:id="@+id/include_menu_bar"
+        layout="@layout/menu_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

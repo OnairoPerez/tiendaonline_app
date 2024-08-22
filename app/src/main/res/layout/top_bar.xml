@@ -72,14 +72,14 @@
         <ImageView
             android:id="@+id/button_lupa"
             android:layout_width="24sp"
-            android:layout_height="48dp"
+            android:layout_height="48sp"
             android:layout_marginLeft="10sp"
             android:layout_marginTop="5sp"
             android:layout_weight="1"
             android:background="@drawable/border_radius_white"
             android:contentDescription="@string/alt_lupa"
-            app:srcCompat="@drawable/icono_lupa"
-            tools:padding="8sp" />
+            android:padding="8sp"
+            app:srcCompat="@drawable/icono_lupa" />
 
         <ImageView
             android:id="@+id/icono_carrito"

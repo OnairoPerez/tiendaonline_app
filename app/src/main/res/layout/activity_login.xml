@@ -9,13 +9,10 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="409dp"
-        android:layout_height="294dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEnd0f="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTop0f="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
@@ -39,9 +36,10 @@
     </LinearLayout>
 
     <ScrollView
+        android:id="@+id/scrollView3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="292dp"
+        android:layout_marginTop="270dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
