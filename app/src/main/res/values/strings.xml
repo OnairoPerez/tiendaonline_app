@@ -42,4 +42,9 @@
     <string name="reg_placeholder_7">Correo electrónico</string>
     <string name="reg_placeholder_8">Contraseña</string>
     <string name="reg_button">Siguiente</string>
+    <string name="product_title">Detalles del producto</string>
+    <string name="product_subtitle">Característica pricipales:</string>
+    <string name="product_text_1">Cantidad</string>
+    <string name="product_right_arrow">▶</string>
+    <string name="product_left_arrow">◀</string>
 </resources>
