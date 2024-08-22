@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:contentDescription="@string/alt_contacto"
+        app:srcCompat="@drawable/icono_contactanos" />
+
+    <ImageView
+        android:id="@+id/icono_user"
+        android:layout_width="200sp"
+        android:layout_height="60dp"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:contentDescription="@string/alt_user"
+        app:srcCompat="@drawable/icono_usuario" />
+
+    <ImageView
+        android:id="@+id/icono_setting"
+        android:layout_width="200sp"
+        android:layout_height="60dp"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:contentDescription="@string/alt_setting"
+        app:srcCompat="@drawable/icono_ajustes" />
+</LinearLayout>
