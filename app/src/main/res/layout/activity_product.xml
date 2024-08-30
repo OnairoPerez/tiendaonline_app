@@ -73,7 +73,8 @@
                 android:id="@+id/product_image"
                 android:layout_width="match_parent"
                 android:layout_height="250sp"
-                android:contentDescription="Representación gráfica del producto" />
+                android:contentDescription="Representación gráfica del producto"
+                app:srcCompat="@drawable/producto_cargando" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"

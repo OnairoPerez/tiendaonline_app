@@ -53,7 +53,8 @@
                             android:id="@+id/imageView4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:contentDescription="Representación gráfica del producto" />
+                            android:contentDescription="Representación gráfica del producto"
+                            app:srcCompat="@drawable/producto_cargando" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -106,7 +107,8 @@
                             android:id="@+id/imageView5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:contentDescription="Representación gráfica del producto" />
+                            android:contentDescription="Representación gráfica del producto"
+                            app:srcCompat="@drawable/producto_cargando" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -159,7 +161,8 @@
                             android:id="@+id/imageView6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:contentDescription="Representación gráfica del producto" />
+                            android:contentDescription="Representación gráfica del producto"
+                            app:srcCompat="@drawable/producto_cargando" />
                     </LinearLayout>
 
                     <LinearLayout
